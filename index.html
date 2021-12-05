@@ -6,34 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first website</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    
 </head>
 <body>
 
+ 
     <div id="top"></div>
+
+<div id="header">
     <img src="img/vintage-shop.jpeg" width="100%" alt="vintage shop">
     <h1>Welcome to my Vintage Shop!</h1>
     <p>We sell unique, stylish <small>clothes</small> to give them second life</p>
-<ul>
-    <li><a href="contact.html" target="_blank">Contact Us!</a></li>
+</div>
+    
+    <hr>
+
+<div id="navigation">
+    <ul>
+    <li><a onclick="alert('Welcome!');" href="contact.html" target="_blank">Contact Us!</a></li>
     <li><a href="vintage-shop-prices.html">Our Prices</a></li>
     <li><a href="https://en.wikipedia.org/wiki/Vintage_clothing">What is Vintage Clothing?</a></li>
     <li><a href="downloads/blank.pdf">download our new prices!</a></li>
-</ul>
+    </ul>
+
+</div>
+   
+<hr>
+
+<div id="categories">
+
     <h2>Categories:</h2>
     <p>dresses, trousers, shoes and more</p>
     <h3>what more?</h3>
     <p>we sell cds, vinyls and cassetes</p>
+</div>
 
-    <h2>About Us</h2>
+<div id="about-us"
+    <h2> About Us</h2>
     <p>We are eco-friendly company that provide best products</p>
+</div>
+
+<div id="contact">
 
     <h2>Contact Us</h2>
     <p>you can contact us various ways:</p>
-    <h3>By phone</h3>
-    <p>666-666-666</p>
-    <h3>Email</h3>
-    <p>daria@gmail.com</p>
 
+        <div class="contact-method">
+        <h3>By phone</h3>
+        <p>666-666-666</p>
+        </div>
+
+        <div class="contact-method">
+        <h3>Email</h3>
+        <p>daria@gmail.com</p>
+        </div>
+
+</div>
 <a href="#top">Got to top</a>
+
+<script src="scripts/main.js"></script>
 </body>
 </html>
